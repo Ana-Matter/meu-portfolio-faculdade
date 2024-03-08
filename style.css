@@ -1,0 +1,59 @@
+body {
+    background-color: #ffffff;
+    color: #898989;
+    font-family: "Poppins", Helvetica;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 300;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero {
+    padding: 10%;
+    background: rgb(198,179,152);
+    background: radial-gradient(circle, rgba(198,179,152,1) 0%, rgba(238,174,202,1) 70%, rgba(148,187,233,1) 100%);
+}
+
+#hero img {
+    float: right;
+    border-radius: 8px;
+    padding-right: 25px;
+}
+
+.cargo {
+    letter-spacing: 8px;
+}
+
+.texto {
+    padding-left: 25px;
+}
+
+p, h1, h2 {
+    padding-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+
+.contact-details {
+    text-decoration: none;
+    list-style: none
+}
+
+.p-heading {
+    text-transform: uppercase;
+}
+
+#footer {
+    background-color: #f7f7f7;
+    padding-top: 10px;
+}
+ 
